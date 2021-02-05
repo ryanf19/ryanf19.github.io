@@ -1,0 +1,140 @@
+/* Global styles
+----------------------------*/
+:root {
+	font-size: 100%;
+	--banner-size: 23em;
+}
+
+/*
+    Defines all elements as boxes that include borders and padding.
+*/
+html {
+	box-sizing: border-box;
+}
+
+/*
+    Adds a light blue background and line height to everything in the body.
+*/
+body {
+    padding-top: var(--banner-size);
+    line-height: 1.5;
+	background-color: rgba(45, 100, 245, .2);
+} 
+
+/*
+    All ul elements will have this light green background and width.
+	Positioned to the right of all h2 elements and under all h3 elements.
+*/
+ul {
+	position: block;
+	border: .1em solid rgb(0, 100, 0);
+	margin-left: 25em;
+	color: rgb(0, 100, 0);
+	font: 1.5em "Arial", sans-serif;	
+	background-color: rgba(45, 245, 100, .2);
+	width: 50%;
+	padding-top: .75em;
+	padding-bottom: .75em;
+}
+
+/*
+   All img will be positioned left-center within the banner.
+*/
+img {
+	position: absolute;
+	top: 2em;
+	margin-left: 4em;
+}
+
+/*
+    All page-links will be positioned directly below titles.
+*/
+nav {
+	position: absolute;
+	font-size: 1.5em;
+	font-weight: bold;
+	top: 8.5em;
+	margin-left: 15em;
+}
+
+/*
+    All titles will be positioned directly to the right of profile pictures.
+*/
+h1 {
+	position: absolute;
+	top: .3em;
+	line-height: 1;
+	margin-left: 4em;
+	font: 5.5em "Times New Roman", serif;
+	font-weight: bold;
+}
+
+/*
+    All h2 will have this blue font. 
+	Positioned to the left within each section.
+*/
+h2 {
+    position: block;
+	font: 3.5em "Times New Roman", serif;
+	font-weight: bold;
+	color: rgb(0, 0, 176);
+	text-decoration: underline;
+	margin-left: 1em;
+	width: 30%;
+	float: left;
+}	
+
+/*
+    All h3 will have this blue font.
+	Positioned to the right of all h2.
+*/
+h3 {
+	position: block;
+	font: 2.5em "Times New Roman", serif;
+	font-weight: bold;
+	color: rgb(0, 0, 176);
+	margin-left: 15em;
+	width: 35%;
+}
+
+/*
+    All credentials resume sections will have this red border and padding.
+*/
+.credentials.resume-section {
+	border-bottom: .2em solid rgb(204, 00, 0);
+	padding-bottom: 2em;
+}
+
+/*
+    Positions the fixed page-banner at the top and adds a yellow border underneath.
+*/
+#page-banner {
+	position: fixed;
+	top: 0;
+    left: 0;
+	background-color: grey;
+	border-bottom: .3em solid rgb(246, 190, 0);
+    width: 100%;
+	height: var(--banner-size);
+	z-index: 10;
+}
+
+/*
+    All contact-info-details positioned right-center within the banner.
+*/
+#contact-info-details {
+	position: absolute;
+	top: 2em;
+	margin-left: 43em;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+
+/*
+    Removes the section border from the bottom of the resume. 
+*/
+#work-experience {
+	border: none;
+}
+
+
