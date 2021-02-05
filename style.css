@@ -26,7 +26,6 @@ body {
 	Positioned to the right of all h2 elements and under all h3 elements.
 */
 ul {
-	position: block;
 	border: .1em solid rgb(0, 100, 0);
 	margin-left: 18em;
 	color: rgb(0, 100, 0);
@@ -74,8 +73,7 @@ h1 {
 	Positioned to the left within each section.
 */
 h2 {
-    position: block;
-	font: 3.5em "Times New Roman", serif;
+        font: 3.5em "Times New Roman", serif;
 	font-weight: bold;
 	color: rgb(0, 0, 176);
 	text-decoration: underline;
@@ -89,7 +87,6 @@ h2 {
 	Positioned to the right of all h2.
 */
 h3 {
-	position: block;
 	font: 2.5em "Times New Roman", serif;
 	font-weight: bold;
 	color: rgb(0, 0, 176);
@@ -101,6 +98,7 @@ h3 {
     All credentials resume sections will have this red border and padding.
 */
 .credentials.resume-section {
+	position: block;
 	border-bottom: .2em solid rgb(204, 00, 0);
 	padding-bottom: 2em;
 }
