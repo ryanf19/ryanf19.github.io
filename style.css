@@ -28,7 +28,7 @@ body {
 ul {
 	position: block;
 	border: .1em solid rgb(0, 100, 0);
-	margin-left: 25em;
+	margin-left: 18em;
 	color: rgb(0, 100, 0);
 	font: 1.5em "Arial", sans-serif;	
 	background-color: rgba(45, 245, 100, .2);
@@ -80,7 +80,7 @@ h2 {
 	color: rgb(0, 0, 176);
 	text-decoration: underline;
 	margin-left: 1em;
-	width: 30%;
+	width: 20%;
 	float: left;
 }	
 
@@ -93,7 +93,7 @@ h3 {
 	font: 2.5em "Times New Roman", serif;
 	font-weight: bold;
 	color: rgb(0, 0, 176);
-	margin-left: 15em;
+	margin-left: 10.5em;
 	width: 35%;
 }
 
@@ -125,7 +125,7 @@ h3 {
 #contact-info-details {
 	position: absolute;
 	top: 2em;
-	margin-left: 43em;
+	margin-left: 37em;
 	font-size: 1.7em;
 	font-weight: bold;
 }
