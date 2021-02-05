@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Ryan's Resume</title>
+		<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="page-banner" class="banner resume-section">
+		    <header>
+	            <h1 id="title">Ryan Furuness</h1>
+	        </header>
+			<img id="profile-picture" src="https://i.ibb.co/23yg5Pf/IMG-5141.jpg" alt="Picture of face" width="250" height="308">
+            <nav id="page-links">
+				<a id="education-link" href="#education">Education</a>
+				<a id="skills-link" href="#skills">Skills</a>
+				<a id="leadership-link" href="#leadership">Leadership</a>
+				<a id="work-experience-link" href="#work-experience">Work Experience</a>
+            </nav>	
+            <section id="contact-info-details" class="banner-details details">
+                <address id="home-address" class="address">
+                    <p id="home-street-address" class="street-address">
+                        <span id="home-street-number" class="address street">1000 Marlington St.<br></span>
+                        <span id="home-city" class="address city">Blacksburg, </span>
+                        <span id="home-state" class="address state">VA </span>
+                        <span id="home-postal-code" class="address postal-code">24060<br></span>
+                    </p>
+                </address>
+                <address class="linkedin-profile">
+                    <a id="ryanf19-linkedin-link" href="https://www.linkedin.com/in/ryanfuru/">LinkedIn</a>
+                </address>
+                <address class="email">
+                    <a id="ryanf19-email-link" href="mailto:ryanf19@vt.edu">ryanf19@vt.edu</a>
+                </address>
+            </section><!--contact-info-->					
+        </div> 
+		<div id="main-resume">
+		    <section id="education" class="credentials resume-section">
+                <h2 id="education-section-header" class="section-header">Education</h2>
+                <h3 id="virginia-tech-subsec-header" class="education-header subsec-header">Virginia Tech, Blacksburg, VA</h3>
+                <ul id="education-details" class="credentials-details details">
+                    <li id="virginia-tech-year-and-major">Junior Majoring in Computer Science</li>
+                    <li id="virginia-tech-minor">Minoring in Math</li>
+                    <li id="virginia-tech-gpa">GPA: 3.94</li>
+                    <li id="virginia-tech-honors">Member of the Virginia Tech Honors College</li>
+                </ul>
+            </section><!--education-->
+            <section id="skills" class="credentials resume-section">
+                <h2 id="skills-section-header" class="section-header">Skills</h2>
+                <h3 id="java-subsec-header" class="skill-header subsec-header">Java</h3>
+                <ul id="java-details" class="credentials-details details">
+                    <li id="java-skill-oop">Solid grasp of OOP and data structures</li>
+                    <li id="java-skill-junit">Knowledge of JUnit testing</li>
+                    <li id="java-skill-git">Experience using version control</li>
+                </ul>
+                <h3 id="python-subsec-header" class="skill-header subsec-header">Python</h3>
+                <ul id="python-details" class="credentials-details details">
+                    <li id="python-skill-understanding">Basic understanding of the language</li>
+                    <li id="python-skill-challenges">Ability to solve beginner coding challenges</li>
+                    <li id="python-skill-machine-learning">Minor experience with machine learning</li>
+                </ul>
+            </section><!--skills-->
+            <section id="leadership" class="credentials resume-section">
+                <h2 id="leadership-section-header" class="section-header">Leadership</h2>
+				<h3 id="experiences-subsec-header" class="experiences-header subsec-header">Experiences</h3>
+                <ul id="leadership-details" class="credentials-details details">
+                    <li id="cross-country">Served as the captain of Cross Country team</li>
+                    <li id="senior-patrol-leader">Served as the Senior Patrol Leader of Troop 158</li>
+                    <li id="national-youth">Attended the Boy Scouts of America National Youth Leadership Training</li>
+                    <li id="voice-of-democracy">Winner of regional Voice of Democracy Scholarship</li>
+                </ul>
+            </section><!--leadership-->
+            <section id="work-experience" class="credentials resume-section">
+                <h2 id="work-experience-section-header" class="section-header">Work Experience</h2>
+                <h3 id="uta-subsec-header" class="work-header subsec-header">UTA</h3>
+                <ul id="uta-details" class="credentials-details details">
+                    <li id="uta-course">Undergraduate Teaching Assistant for Intro to Software Design (CS 1114)</li>
+                    <li id="uta-responsibilities">Responsibilities include holding office hours, working side-by-side with GTAs in course labs, and monitoring online course forums for additional student questions</li>
+                </ul>
+                <h3 id="tutor-subsec-header" class="work-header subsec-header">Tutor</h3>
+                <ul id="tutor-details" class="credentials-details details">
+                    <li id="tutor-courses">Tutoring student athletes in Multivariable Calculus and Linear Algebra</li>
+                    <li id="tutor-skills">Utilizing communication and organizational skills to effectively teach students</li>
+                </ul>
+            </section><!--work-experience-->
+        </div>
+    </body>
+</html>
