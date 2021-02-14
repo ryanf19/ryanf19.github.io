@@ -37,38 +37,6 @@ ul {
 }
 
 /*
-   All img will be positioned left-center within the banner.
-*/
-img {
-	position: absolute;
-	top: 2em;
-	margin-left: 4em;
-}
-
-/*
-    All page-links will be positioned directly below titles.
-*/
-nav {
-	position: absolute;
-	font-size: 1.5em;
-	font-weight: bold;
-	top: 8.5em;
-	margin-left: 15em;
-}
-
-/*
-    All titles will be positioned directly to the right of profile pictures.
-*/
-h1 {
-	position: absolute;
-	top: .3em;
-	line-height: 1;
-	margin-left: 4em;
-	font: 5.5em "Times New Roman", serif;
-	font-weight: bold;
-}
-
-/*
     All h2 will have this blue font. 
 	Positioned to the left within each section.
 */
@@ -126,6 +94,38 @@ h3 {
     width: 100%;
 	height: var(--banner-size);
 	z-index: 10;
+}
+
+/*
+    The title will be positioned directly to the right of the profile picture.
+*/
+#title {
+	position: absolute;
+	top: .3em;
+	line-height: 1;
+	margin-left: 4em;
+	font: 5.5em "Times New Roman", serif;
+	font-weight: bold;
+}
+
+/*
+   The profile picture will be positioned left-center within the banner.
+*/
+#profile-picture {
+	position: absolute;
+	top: 2em;
+	margin-left: 4em;
+}
+
+/*
+    The page-links nav bar will be positioned directly below the title.
+*/
+#page-links {
+	position: absolute;
+	font-size: 1.5em;
+	font-weight: bold;
+	top: 8.5em;
+	margin-left: 15em;
 }
 
 /*
