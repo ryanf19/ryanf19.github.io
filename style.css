@@ -19,12 +19,12 @@ html {
 body {
     padding-top: var(--banner-size);
     line-height: 1.5;
-	background-color: rgba(45, 100, 245, .2);
+    background-color: rgba(45, 100, 245, .2);
 } 
 
 /*
     All ul elements will have this light green background and width.
-	Positioned to the right of all h2 elements and under all h3 elements.
+    Positioned to the right of all h2 elements and under all h3 elements.
 */
 ul {
 	border: .1em solid rgb(0, 100, 0);
@@ -39,7 +39,7 @@ ul {
 
 /*
     All h2 will have this blue font. 
-	Positioned to the left within each section.
+    Positioned to the left within each section.
 */
 h2 {
         font: 3.5em "Times New Roman", serif;
@@ -53,7 +53,7 @@ h2 {
 
 /*
     All h3 will have this blue font.
-	Positioned to the right of all h2.
+    Positioned to the right of all h2.
 */
 h3 {
 	font: 2.5em "Times New Roman", serif;
