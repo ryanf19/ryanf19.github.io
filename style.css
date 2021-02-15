@@ -10,6 +10,7 @@
 */
 html {
 	box-sizing: border-box;
+	scroll-padding-top: 10em;
 }
 
 /*
@@ -69,16 +70,6 @@ h3 {
 	position: block;
 	border-bottom: .2em solid rgb(204, 00, 0);
 	padding-bottom: 2em;
-}
-
-/*
-    Internal link anchor positions offset to account for fixed header.
-*/
-:target::before {
-	content: "";
-	display: block;
-	height: 10em;
-	margin: -10em 0em 0em;
 }
 
 /*
