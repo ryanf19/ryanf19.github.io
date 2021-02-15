@@ -74,9 +74,9 @@ h3 {
 /*
     Internal link anchor positions offset to account for fixed header.
 */
-.internal-links {
-	position: relative;
-	top: -100em;
+.internal-links:target {
+	padding-top: 10em;
+	margin-top: -10em;
 }
 
 /*
