@@ -98,10 +98,10 @@ h3 {
 #page-banner {
 	position: fixed;
 	top: 0;
-    left: 0;
+        left: 0;
 	background-color: grey;
 	border-bottom: .3em solid rgb(246, 190, 0);
-    width: 100%;
+        width: 100%;
 	height: var(--banner-size);
 	z-index: 10;
 }
