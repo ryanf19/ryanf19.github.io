@@ -72,6 +72,14 @@ h3 {
 }
 
 /*
+    Internal link anchor positions offset to account for fixed header.
+*/
+.internal-links {
+	position: relative;
+	top: -5em;
+}
+
+/*
     External links positioned below the nav bar to the right.
 */
 .external-links {
